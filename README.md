@@ -1,4 +1,7 @@
-**本项目使用Minimax Agent和Deepseek制作**
+**本项目使用Minimax Agent和Deepseek制作**<br>
+<br>
+**运行环境：1.20.4 Fabric<br>
+前置模组：Cloth Config API，Mod Menu**
 
 **以下是由AI生成的项目概述：**
 
