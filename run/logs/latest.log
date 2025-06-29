@@ -1,0 +1,244 @@
+[11:13:17] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
+[11:13:17] [main/INFO] (FabricLoader) Loading 60 mods:
+	- cloth-basic-math 0.6.1
+	- cloth-config 13.0.112
+	- fabric-api 0.97.3+1.20.4
+	- fabric-api-base 0.4.37+78d798af4f
+	- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	- fabric-biome-api-v1 13.0.17+78d798af4f
+	- fabric-block-api-v1 1.0.17+3e2216cb4f
+	- fabric-block-view-api-v2 1.0.5+78d798af4f
+	- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	- fabric-command-api-v1 1.2.42+f71b366f4f
+	- fabric-command-api-v2 2.2.21+78d798af4f
+	- fabric-commands-v0 0.2.59+df3654b34f
+	- fabric-containers-v0 0.1.88+df3654b34f
+	- fabric-content-registries-v0 5.0.16+78d798af4f
+	- fabric-convention-tags-v1 1.5.11+78d798af4f
+	- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	- fabric-dimensions-v1 2.1.63+6605d1a84f
+	- fabric-entity-events-v1 1.6.2+09fc25014f
+	- fabric-events-interaction-v0 0.7.2+389931eb4f
+	- fabric-events-lifecycle-v0 0.2.76+df3654b34f
+	- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	- fabric-gametest-api-v1 1.3.6+85d85a934f
+	- fabric-item-api-v1 2.3.1+cadc140c4f
+	- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	- fabric-keybindings-v0 0.2.40+df3654b34f
+	- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	- fabric-loot-api-v2 2.1.10+78d798af4f
+	- fabric-message-api-v1 6.0.6+78d798af4f
+	- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	- fabric-models-v0 0.4.8+9386d8a74f
+	- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	- fabric-particles-v1 1.1.8+78d798af4f
+	- fabric-recipe-api-v1 2.0.22+78d798af4f
+	- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	- fabric-renderer-api-v1 3.2.5+78d798af4f
+	- fabric-renderer-indigo 1.5.6+d331d3144f
+	- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	- fabric-rendering-v0 1.1.57+df3654b34f
+	- fabric-rendering-v1 3.2.1+6fd945a04f
+	- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	- fabric-screen-api-v1 2.0.18+78d798af4f
+	- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	- fabric-sound-api-v1 1.0.18+78d798af4f
+	- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.15.11
+	- java 17
+	- milometermod 1.0.0
+	- minecraft 1.20.4
+	- mixinextras 0.3.5
+	- modmenu 9.0.0
+[11:13:17] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Tony/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[11:13:17] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:13:17] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[11:13:19] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[11:13:24] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 118 milliseconds
+[11:13:26] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:13:26] [Render thread/INFO] (Minecraft) Setting user: Player891
+[11:13:26] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[11:13:26] [Render thread/INFO] (milometermod) Initializing Milometer Mod
+[11:13:26] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[11:13:26] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.52.jar:?]
+	at net.minecraft.client.Minecraft.method_55608(Minecraft.java:467) ~[minecraft-merged-35a44b6d3d-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.52.jar:?]
+	... 5 more
+[11:13:27] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[11:13:27] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[11:13:28] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, milometermod, modmenu
+[11:13:29] [Worker-Main-16/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
+[11:13:30] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[11:13:30] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:13:30] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.generic.wind_burst
+[11:13:30] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 耳机 (Senary Audio)
+[11:13:30] [Render thread/INFO] (Minecraft) Sound engine started
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:13:30] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[11:13:30] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:13:31] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[11:13:31] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:13:31] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:13:31] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[11:13:31] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[11:13:31] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC'
+	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[minecraft-merged-35a44b6d3d-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[minecraft-merged-35a44b6d3d-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.realmsclient.RealmsAvailability.method_52627(RealmsAvailability.java:45) ~[minecraft-merged-35a44b6d3d-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[11:13:36] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[11:13:36] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[11:13:42] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.248 ms
+[11:13:42] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[11:13:42] [Server thread/INFO] (Minecraft) Generating keypair
+[11:13:45] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[11:13:45] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[11:13:46] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[11:13:46] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[11:13:46] [Render thread/INFO] (Minecraft) 准备生成区域中：1%
+[11:13:47] [Render thread/INFO] (Minecraft) 准备生成区域中：5%
+[11:13:47] [Render thread/INFO] (Minecraft) 准备生成区域中：10%
+[11:13:48] [Render thread/INFO] (Minecraft) 准备生成区域中：15%
+[11:13:48] [Render thread/INFO] (Minecraft) 准备生成区域中：19%
+[11:13:49] [Render thread/INFO] (Minecraft) 准备生成区域中：27%
+[11:13:49] [Render thread/INFO] (Minecraft) 准备生成区域中：34%
+[11:13:50] [Render thread/INFO] (Minecraft) 准备生成区域中：43%
+[11:13:50] [Render thread/INFO] (Minecraft) 准备生成区域中：51%
+[11:13:51] [Render thread/INFO] (Minecraft) 准备生成区域中：57%
+[11:13:51] [Render thread/INFO] (Minecraft) 准备生成区域中：65%
+[11:13:52] [Render thread/INFO] (Minecraft) 准备生成区域中：74%
+[11:13:52] [Render thread/INFO] (Minecraft) 准备生成区域中：82%
+[11:13:53] [Render thread/INFO] (Minecraft) 准备生成区域中：88%
+[11:13:53] [Render thread/INFO] (Minecraft) 准备生成区域中：99%
+[11:13:53] [Render thread/INFO] (Minecraft) Time elapsed: 8560 ms
+[11:13:53] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[11:13:53] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[11:13:55] [Server thread/INFO] (Minecraft) Player891[local:E:ec1cd6cf] logged in with entity id 237 at (3.5, 77.0, -4.5)
+[11:13:55] [Server thread/INFO] (Minecraft) Player891加入了游戏
+[11:13:55] [Render thread/WARN] (ClientCommandInternals) Ambiguity between arguments [milometer, setpos, x] and [milometer, setpos, corner] with inputs: [0, -123, 123]
+[11:13:56] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[11:14:21] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:14:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:14:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:14:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:14:47] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:14:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:14:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:14:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT] === 里程表模组指令帮助 ===
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT] /milometer reset - 重置累计距离
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT] /milometer setpos <x> <y> - 设置HUD位置
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT] /milometer setpos <corner> - 设置HUD到屏幕角落
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT]   可用角落: topleft, topright, bottomleft, bottomright
+[11:16:07] [Render thread/INFO] (Minecraft) [System] [CHAT] /milometer help - 显示此帮助
+[11:16:16] [Render thread/INFO] (Minecraft) [System] [CHAT] 里程表距离已重置
+[11:16:35] [Render thread/INFO] (Minecraft) [System] [CHAT] HUD位置设置为bottomright角落 (277, 200)
+[11:16:37] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:16:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:16:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:16:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:16:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:16:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:16:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:16:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:16:44] [Render thread/INFO] (Minecraft) [System] [CHAT] HUD位置设置为bottomright角落 (362, 229)
+[11:16:46] [Render thread/INFO] (Minecraft) [System] [CHAT] HUD位置设置为bottomright角落 (362, 229)
+[11:16:49] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:16:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:16:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:16:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:16:51] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[11:16:59] [Render thread/INFO] (Minecraft) [System] [CHAT] HUD位置设置为topleft角落 (10, 10)
+[11:17:01] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:17:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:17:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:17:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:17:29] [Render thread/INFO] (Minecraft) [System] [CHAT] 里程表距离已重置
+[11:18:00] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[11:18:51] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将截图保存为2025-06-29_11.18.50.png
+[11:19:06] [Server thread/INFO] (Minecraft) [Player891: 已将自己的游戏模式设置为旁观模式]
+[11:19:06] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为旁观模式
+[11:19:44] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:19:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:19:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:19:44] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:19:44] [Server thread/INFO] (Minecraft) Player891 lost connection: 连接中断
+[11:19:44] [Server thread/INFO] (Minecraft) Player891退出了游戏
+[11:19:44] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[11:19:44] [Server thread/INFO] (Minecraft) Stopping server
+[11:19:44] [Server thread/INFO] (Minecraft) Saving players
+[11:19:44] [Server thread/INFO] (Minecraft) Saving worlds
+[11:19:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:19:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:19:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:19:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[11:19:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:19:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:19:45] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[11:19:48] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[11:19:48] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[11:19:48] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 156.4 μs
+[11:19:48] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[11:19:48] [Server thread/INFO] (Minecraft) Generating keypair
+[11:19:49] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[11:19:49] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[11:19:49] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[11:19:50] [Render thread/INFO] (Minecraft) 准备生成区域中：1%
+[11:19:50] [Render thread/INFO] (Minecraft) Time elapsed: 1331 ms
+[11:19:50] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[11:19:50] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[11:19:50] [Server thread/INFO] (Minecraft) Player891[local:E:80ef080f] logged in with entity id 5019 at (98.07214749655896, 146.11478663654643, 201.00849609644587)
+[11:19:50] [Server thread/INFO] (Minecraft) Player891加入了游戏
+[11:19:50] [Render thread/WARN] (ClientCommandInternals) Ambiguity between arguments [milometer, setpos, x] and [milometer, setpos, corner] with inputs: [0, -123, 123]
+[11:19:50] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[11:20:07] [Server thread/INFO] (Minecraft) [Player891: 已将自己的游戏模式设置为创造模式]
+[11:20:07] [Render thread/INFO] (Minecraft) [System] [CHAT] 已将自己的游戏模式设置为创造模式
+[11:20:07] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:20:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:20:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:20:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:20:08] [Server thread/INFO] (Minecraft) Player891 lost connection: 连接中断
+[11:20:08] [Server thread/INFO] (Minecraft) Player891退出了游戏
+[11:20:08] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[11:20:08] [Server thread/INFO] (Minecraft) Stopping server
+[11:20:08] [Server thread/INFO] (Minecraft) Saving players
+[11:20:08] [Server thread/INFO] (Minecraft) Saving worlds
+[11:20:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[11:20:09] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[11:20:09] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[11:20:09] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[11:20:09] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:20:09] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:20:09] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[11:20:10] [Render thread/INFO] (Minecraft) Stopping!

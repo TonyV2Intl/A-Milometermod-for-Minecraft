@@ -1,0 +1,5 @@
+/milometer help
+/milometer reset
+/milometer setpos bottomright
+/milometer setpos topleft
+/milometer reset

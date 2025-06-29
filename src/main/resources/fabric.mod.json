@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "milometermod",
+  "version": "${version}",
+
+  "name": "Milometer Mod",
+  "description": "Displays player speed and total distance traveled.",
+  "authors": [
+    "MiniMax Agent"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/milometermod/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tonyv2.milometermod.MilometerModClient"
+    ],
+    "main": [
+      "com.tonyv2.milometermod.MilometerMod"
+    ],
+    "modmenu": [
+      "com.tonyv2.milometermod.compat.ModMenuIntegration"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  }
+}

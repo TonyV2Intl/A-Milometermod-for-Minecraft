@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=E:\Minecraft\mod dev\milometermod-1.20.4\build\classes\java\main\modid.refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=E:\Minecraft\mod dev\milometermod-1.20.4\build\loom-cache\mixin-map-loom.mappings.1_20_4.layered+hash.2198-v2.main.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\Tony\.gradle\caches\fabric-loom\1.20.4\loom.mappings.1_20_4.layered+hash.2198-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="milometermod-1.20.4.test" options="&quot;-AoutRefMapFile=E:\Minecraft\mod dev\milometermod-1.20.4\build\classes\java\test\test-modid.refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=E:\Minecraft\mod dev\milometermod-1.20.4\build\loom-cache\mixin-map-loom.mappings.1_20_4.layered+hash.2198-v2.test.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\Tony\.gradle\caches\fabric-loom\1.20.4\loom.mappings.1_20_4.layered+hash.2198-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>
