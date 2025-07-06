@@ -12,10 +12,16 @@
 
 设置指令：
 ```
-/milometer reset - 清零累计距离
-/milometer setpos <x> <y> - 设置HUD精确位置
-/milometer setpos <corner> - 快速设置到屏幕四个角落
-/milometer help - 显示帮助信息
+/milometer reset - 重置累计距离为零
+/milometer setdistancemanually <newtotaldistance> - 手动设置累计距离
+/milometer setpos - 设置HUD位置
+  -xy <x> <y> - 到指定坐标
+  -corner - 到屏幕角落
+    topleft - 左上角
+    topright - 右上角
+    bottomleft - 左下角
+    bottomright - 右下角
+/milometer help - 显示此帮助
 ```
 <br>
 <br>
@@ -24,7 +30,7 @@
 **Running environment: 1.20.4 Fabric<br>
 Front end mods required: Cloth Config API, Mod Menu**
 
-This mod can display the player's movement speed in real-time on the user interface and calculate the player's cumulative movement distance. It is made using Minimax Agent and Deepseek.
+This mod can display the player's movement speed in real-time on the user interface and calculate the player's cumulative movement distance, powered by Minimax Agent and Deepseek.
 
 Implemented functions:
 1. Display the current player's movement speed on the game interface, measured in meters per second (m/s), which includes both horizontal and vertical movements. This speed is calculated based on changes in the player's coordinates and is updated every game tick (20 times per second).
@@ -35,8 +41,14 @@ Note: As the data source is player coordinate transformation, the distance trans
 
 Set command:
 ```
-/Milometer reset - Clear accumulated distance to zero
-/Milometer setpos<x><y>- Set the precise position of HUD
-/Milometer setpos<corner>- Quickly set to the four corners of the screen
-/Milometer help - Display help information
+/milometer reset - Reset cumulative distance to zero
+/milometer setdistance manually <newtotaldistance> - manually set cumulative distance
+/milometer setpos - Set HUD position
+  -xy <x><y> - to the specified coordinates
+  -corner - to the corner of the screen
+    topleft - Upper left corner
+    topright - upper right corner
+    bottomleft - bottom left corner
+    bottomright - bottom right corner
+/milometer help - Display this help
 ```
