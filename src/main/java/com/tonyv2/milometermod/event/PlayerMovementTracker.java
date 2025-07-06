@@ -6,9 +6,13 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.phys.Vec3;
 
 public class PlayerMovementTracker implements ClientTickEvents.EndTick {
+
     private Vec3 lastPosition;
     private double totalDistance = 0.0;
     private double speed = 0.0;
+
+    public double newtotalDistance = 0.0;
+
 
     public PlayerMovementTracker() {
         ClientTickEvents.END_CLIENT_TICK.register(this);
@@ -38,5 +42,8 @@ public class PlayerMovementTracker implements ClientTickEvents.EndTick {
 
     public void resetDistance() {
         totalDistance = 0.0;
+    }
+    public void SetDistanceManually() {
+        totalDistance = newtotalDistance;
     }
 }

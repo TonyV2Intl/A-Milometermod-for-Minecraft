@@ -3,3 +3,46 @@
 /milometer setpos bottomright
 /milometer setpos topleft
 /milometer reset
+/milometer help
+/milometer reset
+/milometer setpos topleft
+/milometer setpos 23 23
+/milometer setpos topright
+/milometer setpos 1920 1280
+/milometer setpos topright
+/milometer setpos 278 10
+/milometer setpos 300 10
+/milometer setdistancemanually 2323.2
+/milometer setdistancemanually 232.23
+/milometer reset
+/milometer setdistancemanually 232.2378969
+/milometer setdistancemanually 232
+/time set day
+/milometer setdistancemanually 232
+/milometer setdistancemanually 232.238964
+/milometer setdistancemanually 232347234.234
+/help
+/milometer help
+/milometer setpos -xy -corner topleft
+/milometer setpos -xy -corner bottomright
+/milometer setpos -xy -corner topright
+/milometer setpos -corner bottomleft
+/milometer setpos -corner bottomright
+/milometer setpos -xy 277 200
+/milometer setpos -xy 427 200
+/milometer setpos -xy 407 200
+/milometer setpos -xy 427 200
+/milometer setpos -corner bottomright
+/milometer setpos -xy 427 200
+/milometer setpos -xy 377 200
+/milometer setpos -xy 327 200
+/milometer setpos -xy 347 200
+/milometer setpos -xy 347 220
+/milometer setpos -xy 347 230
+/milometer setpos -xy 347 210
+/milometer setpos -corner topright
+/milometer setpos -corner bottomright
+/milometer setpos -corner topleft
+/milometer help
+/milometer setdistancemanually 3740237428947023847
+/milometer setdistancemanually 374023742

@@ -3,6 +3,7 @@ package com.tonyv2.milometermod.compat;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 import com.tonyv2.milometermod.config.MilometerConfig;
+import com.tonyv2.milometermod.MilometerModClient;
 import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.api.ConfigCategory;
 import me.shedaniel.clothconfig2.api.ConfigEntryBuilder;
@@ -31,7 +32,12 @@ public class ModMenuIntegration implements ModMenuApi {
                     .setSaveConsumer(newValue -> MilometerConfig.INSTANCE.hudY = newValue)
                     .build());
 
-            builder.setSavingRunnable(MilometerConfig.INSTANCE::save);
+            builder.setSavingRunnable(() -> {
+                MilometerConfig.INSTANCE.save();
+                // 同步到客户端配置
+                MilometerModClient.config.hudX = MilometerConfig.INSTANCE.hudX;
+                MilometerModClient.config.hudY = MilometerConfig.INSTANCE.hudY;
+            });
 
             return builder.build();
         };

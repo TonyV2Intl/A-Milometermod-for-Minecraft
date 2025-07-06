@@ -1,7 +1,7 @@
 package com.tonyv2.milometermod;
 
 import com.tonyv2.milometermod.client.MilometerHud;
-import com.tonyv2.milometermod.command.ResetDistanceCommand;
+import com.tonyv2.milometermod.command.SetupCommand;
 import com.tonyv2.milometermod.config.MilometerConfig;
 import com.tonyv2.milometermod.event.PlayerMovementTracker;
 import net.fabricmc.api.ClientModInitializer;
@@ -17,6 +17,6 @@ public class MilometerModClient implements ClientModInitializer {
         config = MilometerConfig.load();
         movementTracker = new PlayerMovementTracker();
         HudRenderCallback.EVENT.register(new MilometerHud());
-        ClientCommandRegistrationCallback.EVENT.register(ResetDistanceCommand::register);
+        ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> SetupCommand.register(dispatcher));
     }
 }

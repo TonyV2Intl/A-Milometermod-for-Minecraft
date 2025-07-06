@@ -20,8 +20,6 @@ public class MilometerHud implements HudRenderCallback {
             String speedText = String.format("速度: %.2f m/s", speed);
             String distanceText = String.format("距离: %.2f m", distance);
 
-            int screenWidth = guiGraphics.guiWidth();
-            int screenHeight = guiGraphics.guiHeight();
 
             // Default position: top-left corner
             int x = MilometerModClient.config.hudX;

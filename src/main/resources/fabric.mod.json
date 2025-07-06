@@ -2,20 +2,18 @@
   "schemaVersion": 1,
   "id": "milometermod",
   "version": "${version}",
-
   "name": "Milometer Mod",
-  "description": "Displays player speed and total distance traveled.",
+  "description": "一个用来统计玩家移动速度和路程的模组\nA mod used to display player speed and total distance traveled.",
   "authors": [
-    "MiniMax Agent"
+    "Tony_V2, MiniMax Agent, Deepseek"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/TonyV2Intl/Milometer-Mod-for-Minecraft",
+    "sources": "https://github.com/TonyV2Intl/Milometer-Mod-for-Minecraft",
+    "issues": "https://github.com/TonyV2Intl/Milometer-Mod-for-Minecraft/issues"
   },
-
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/milometermod/icon.png",
-
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -28,7 +26,6 @@
       "com.tonyv2.milometermod.compat.ModMenuIntegration"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.15.11",
     "fabric-api": "*",
